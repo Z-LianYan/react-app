@@ -9,8 +9,9 @@ const actionCreator = {
 					dispatch({
 						type:CHECK_USER_INFO,
 						userInfo:{
-						username:'二狗子'
-					}})
+							username:'二狗子'
+						}
+					})
 					success()
 					return false;
 				}

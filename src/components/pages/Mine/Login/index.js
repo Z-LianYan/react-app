@@ -8,20 +8,15 @@ import { GroupCommons } from '../../../../modules/group'
 class Login extends Component{
 	constructor(props){
 		super(props)
-		this.state = {
-			
-		}
-		
+		this.state = {}
 		this.login = this.login.bind(this)
-		
 	}
-	
 	
 	login(){
 		console.log('login')
 		let username = '123';
 		let password = '456';
-		let { history } = this.props
+		let { history } = this.props;
 		this.props.login({
 			username,
 			password,

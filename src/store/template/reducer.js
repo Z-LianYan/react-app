@@ -6,9 +6,8 @@ const reducer = (previousState = state , action) => {
 	let new_state = { ...previousState }
 	switch(action.type){
 		case '':
-			return '';
-			
-		default break;
+		break;	
+		default: break;
 	}
 	return new_state
 }
